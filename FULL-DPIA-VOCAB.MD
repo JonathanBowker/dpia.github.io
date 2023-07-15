@@ -5,8 +5,10 @@
 | Type | DPIAElement |
 | Term | projectAim |
 | Label | Project Aim |
-| description | Show file differences that **haven't been** staged |
-| SubType of |  dpia:group1  | 
+| Description | What is the aim of the project? |
+| SubType of |  dpia:group1  |
+| Created |  2023-15-07  | 
+| Contributor(s) |  Jonathan Bowker  | 
 
 ### dpia:element1_2
 ### dpia:element1_3
