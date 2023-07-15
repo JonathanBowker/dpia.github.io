@@ -1,0 +1,661 @@
+{
+  "@context": "https://example.org/dpia",
+  "@type": "DPIADataProtectionImpactAssessment",
+  "@id": "dpia:DPIAModel",
+  "dpia:hasGroup": [
+    {
+      "@id": "dpia:group1",
+      "@type": "DPIAGroup",
+      "name": "Project Scope",
+      "dpia:hasElement": [
+        {"@id": "dpia:element1_1"},
+        {"@id": "dpia:element1_2"},
+        {"@id": "dpia:element1_3"},
+        {"@id": "dpia:element1_4"}
+      ]
+    },
+    {
+      "@id": "dpia:group2",
+      "@type": "DPIAGroup",
+      "name": "Personal Data",
+      "dpia:hasElement": [
+        {"@id": "dpia:element2_1"},
+        {"@id": "dpia:element2_2"},
+        {"@id": "dpia:element2_3"},
+        {"@id": "dpia:element2_4"},
+        {"@id": "dpia:element2_5"},
+        {"@id": "dpia:element2_6"},
+        {"@id": "dpia:element2_7"},
+        {"@id": "dpia:element2_8"},
+        {"@id": "dpia:element2_9"},
+        {"@id": "dpia:element2_10"},
+        {"@id": "dpia:element2_11"},
+        {"@id": "dpia:element2_12"},
+        {"@id": "dpia:element2_13"}
+      ]
+    },
+    {
+      "@id": "dpia:group3",
+      "@type": "DPIAGroup",
+      "name": "Processing Data",
+      "dpia:hasElement": [
+        {"@id": "dpia:element3_1"},
+        {"@id": "dpia:element3_2"},
+        {"@id": "dpia:element3_3"},
+        {"@id": "dpia:element3_4"},
+        {"@id": "dpia:element3_5"},
+        {"@id": "dpia:element3_6"},
+        {"@id": "dpia:element3_7"},
+        {"@id": "dpia:element3_8"},
+        {"@id": "dpia:element3_9"},
+        {"@id": "dpia:element3_10"},
+        {"@id": "dpia:element3_11"},
+        {"@id": "dpia:element3_12"},
+        {"@id": "dpia:element3_13"},
+        {"@id": "dpia:element3_14"},
+        {"@id": "dpia:element3_15"},
+        {"@id": "dpia:element3_16"},
+        {"@id": "dpia:element3_17"},
+        {"@id": "dpia:element3_18"}
+      ]
+    },
+    {
+      "@id": "dpia:group4",
+      "@type": "DPIAGroup",
+      "name": "Data Sharing",
+      "dpia:hasElement": [
+        {"@id": "dpia:element4_1"},
+        {"@id": "dpia:element4_2"},
+        {"@id": "dpia:element4_3"},
+        {"@id": "dpia:element4_4"},
+        {"@id": "dpia:element4_5"},
+        {"@id": "dpia:element4_6"}
+      ]
+    },
+    {
+      "@id": "dpia:group5",
+      "@type": "DPIAGroup",
+      "name": "Data Permissions",
+      "dpia:hasElement": [
+        {"@id": "dpia:element5_1"},
+        {"@id": "dpia:element5_2"},
+        {"@id": "dpia:element5_3"},
+        {"@id": "dpia:element5_4"},
+        {"@id": "dpia:element5_5"},
+        {"@id": "dpia:element5_6"},
+        {"@id": "dpia:element5_7"},
+        {"@id": "dpia:element5_8"}
+      ]
+    },
+    {
+      "@id": "dpia:group6",
+      "@type": "DPIAGroup",
+      "name": "Assess Necessity",
+      "dpia:hasElement": [
+        {"@id": "dpia:element6_1"},
+        {"@id": "dpia:element6_2"},
+        {"@id": "dpia:element6_3"},
+        {"@id": "dpia:element6_4"},
+        {"@id": "dpia:element6_5"},
+        {"@id": "dpia:element6_6"},
+        {"@id": "dpia:element6_7"},
+        {"@id": "dpia:element6_8"},
+        {"@id": "dpia:element6_9"}
+      ]
+    },
+    {
+      "@id": "dpia:group7",
+      "@type": "DPIAGroup",
+      "name": "Consultation",
+      "dpia:hasElement": [
+        {"@id": "dpia:element7_1"},
+        {"@id": "dpia:element7_2"},
+        {"@id": "dpia:element7_3"},
+        {"@id": "dpia:element7_4"},
+        {"@id": "dpia:element7_5"}
+      ]
+    },
+    {
+      "@id": "dpia:group8",
+      "@type": "DPIAGroup",
+      "name": "Technologies and Systems",
+      "dpia:hasElement": [
+        {"@id": "dpia:element8_1"},
+        {"@id": "dpia:element8_2"},
+        {"@id": "dpia:element8_3"},
+        {"@id": "dpia:element8_4"}
+      ]
+    },
+    {
+      "@id": "dpia:group9",
+      "@type": "DPIAGroup",
+      "name": "Data Security and Retention",
+      "dpia:hasElement": [
+        {"@id": "dpia:element9_1"},
+        {"@id": "dpia:element9_2"},
+        {"@id": "dpia:element9_3"},
+        {"@id": "dpia:element9_4"},
+        {"@id": "dpia:element9_5"},
+        {"@id": "dpia:element9_6"},
+        {"@id": "dpia:element9_7"},
+        {"@id": "dpia:element9_8"},
+        {"@id": "dpia:element9_9"}
+      ]
+    },
+    {
+      "@id": "dpia:group10",
+      "@type": "DPIAGroup",
+      "name": "Identifying Data Protection Risks",
+      "dpia:hasElement": [
+        {"@id": "dpia:element10_1"},
+        {"@id": "dpia:element10_2"},
+        {"@id": "dpia:element10_3"},
+        {"@id": "dpia:element10_4"},
+        {"@id": "dpia:element10_5"},
+        {"@id": "dpia:element10_6"},
+        {"@id": "dpia:element10_7"},
+        {"@id": "dpia:element10_8"}
+      ]
+    }
+  ],
+  "dpia:hasElement": [
+    {
+      "@id": "dpia:element1_1",
+      "@type": "DPIAElement",
+      "name": "projectAim",
+      "description": "What is the aim of the project?"
+    },
+    {
+      "@id": "dpia:element1_2",
+      "@type": "DPIAElement",
+      "name": "linkedToAnotherProject",
+      "description": "Does this project link to another project?"
+    },
+    {
+      "@id": "dpia:element1_3",
+      "@type": "DPIAElement",
+      "name": "linkedProjectDPIACompleted",
+      "description": "Has a DPIA been completed on the linked project?"
+    },
+    {
+      "@id": "dpia:element1_4",
+      "@type": "DPIAElement",
+      "name": "linkedProjectName",
+      "description": "What is the name of the project this links to?"
+    },
+    {
+      "@id": "dpia:element2_1",
+      "@type": "DPIAElement",
+      "name": "usingPersonalData",
+      "description": "Will you be using any personal data?"
+    },
+    {
+      "@id": "dpia:element2_2",
+      "@type": "DPIAElement",
+      "name": "processedPersonalData",
+      "description": "What personal data will be processed?"
+    },
+    {
+      "@id": "dpia:element2_3",
+      "@type": "DPIAElement",
+      "name": "otherPersonalData",
+      "description": "Other (please specify)"
+    },
+    {
+      "@id": "dpia:element2_4",
+      "@type": "DPIAElement",
+      "name": "relyingConditions",
+      "description": "Which of the following condition(s) are you relying upon?"
+    },
+    {
+      "@id": "dpia:element2_5",
+      "@type": "DPIAElement",
+      "name": "consentCollectionWithdrawal",
+      "description": "If you are relying on consent to process personal data, how will this be collected and what will you do if it is withheld or withdrawn?"
+    },
+    {
+      "@id": "dpia:element2_6",
+      "@type": "DPIAElement",
+      "name": "multipleLawfulBasis",
+      "description": "If you have selected more than one lawful basis for processing personal data because there is more than one processing activity, please give further detail about each activity and why you consider more than one lawful basis applicable"
+    },
+    {
+      "@id": "dpia:element2_7",
+      "@type": "DPIAElement",
+      "name": "legalObligationJustification",
+      "description": "If you are using legal obligation or public task as your lawful basis, please specify what legislation is being used to justify this."
+    },
+    {
+      "@id": "dpia:element2_8",
+      "@type": "DPIAElement",
+      "name": "specialCategoryDataIncluded",
+      "description": "Does the data include special category data?"
+    },
+    {
+      "@id": "dpia:element2_9",
+      "@type": "DPIAElement",
+      "name": "includedSpecialCategoryData",
+      "description": "Which special category data is included?"
+    },
+    {
+      "@id": "dpia:element2_10",
+      "@type": "DPIAElement",
+      "name": "relyingConditionsSpecialCategory",
+      "description": "Which of the following conditions are you relying upon to process the special category data?"
+    },
+    {
+      "@id": "dpia:element2_11",
+      "@type": "DPIAElement",
+      "name": "multipleLawfulBasisSpecialCategory",
+      "description": "If you have selected more than one lawful basis for processing Special Category Data because there is more than one processing activity, please give further detail about each activity and why you consider more than one lawful basis applicable"
+    },
+    {
+      "@id": "dpia:element2_12",
+      "@type": "DPIAElement",
+      "name": "substantialPublicInterestConditions",
+      "description": "What are the substantial public interest conditions?"
+    },
+    {
+      "@id": "dpia:element2_13",
+      "@type": "DPIAElement",
+      "name": "dataIncludesChildrenOrVulnerableGroups",
+      "description": "Does the data include children or other vulnerable groups? Select multiple options if applicable"
+    },
+    {
+      "@id": "dpia:element3_1",
+      "@type": "DPIAElement",
+      "name": "dataCollectionMethod",
+      "description": "How will you collect the data?"
+    },
+    {
+      "@id": "dpia:element3_2",
+      "@type": "DPIAElement",
+      "name": "dataUsage",
+      "description": "How will you use the data?"
+    },
+    {
+      "@id": "dpia:element3_3",
+      "@type": "DPIAElement",
+      "name": "dataSubjectExpectation",
+      "description": "Would data subjects expect you to use their data in this way?"
+    },
+    {
+      "@id": "dpia:element3_4",
+      "@type": "DPIAElement",
+      "name": "dataUsageFrequency",
+      "description": "How often will you use the data?"
+    },
+    {
+      "@id": "dpia:element3_5",
+      "@type": "DPIAElement",
+      "name": "otherDataUsage",
+      "description": "Other (Please specify)"
+    },
+    {
+      "@id": "dpia:element3_6",
+      "@type": "DPIAElement",
+      "name": "dataUsageExplanation",
+      "description": "Please explain how and why the data will be used this frequently. Please go into as much detail as possible"
+    },
+    {
+      "@id": "dpia:element3_7",
+      "@type": "DPIAElement",
+      "name": "dataUsageBenefits",
+      "description": "What are the benefits of using the data?"
+    },
+    {
+      "@id": "dpia:element3_8",
+      "@type": "DPIAElement",
+      "name": "affectedIndividualsCount",
+      "description": "How many individuals are affected?"
+    },
+    {
+      "@id": "dpia:element3_9",
+      "@type": "DPIAElement",
+      "name": "coversAllProcessingPurposes",
+      "description": "Does this DPIA cover all of the purposes for processing the data or is it likely to expand as the project develops?"
+    },
+    {
+      "@id": "dpia:element3_10",
+      "@type": "DPIAElement",
+      "name": "dataAlreadyHeld",
+      "description": "Is any of this data already held by your organization?"
+    },
+    {
+      "@id": "dpia:element3_11",
+      "@type": "DPIAElement",
+      "name": "currentDataUsagePurpose",
+      "description": "For what purpose is this data used for currently?"
+    },
+    {
+      "@id": "dpia:element3_12",
+      "@type": "DPIAElement",
+      "name": "newDataUsageCompatibility",
+      "description": "Is the new use of the data compatible with the original purpose?"
+    },
+    {
+      "@id": "dpia:element3_13",
+      "@type": "DPIAElement",
+      "name": "criminalOffencesProcessing",
+      "description": "Will you be processing data for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against & the prevention of threats to public security?"
+    },
+    {
+      "@id": "dpia:element3_14",
+      "@type": "DPIAElement",
+      "name": "criminalOffencesDetails",
+      "description": "Please provide further details"
+    },
+    {
+      "@id": "dpia:element3_15",
+      "@type": "DPIAElement",
+      "name": "dataControllerIdentified",
+      "description": "Has the data controller been identified?"
+    },
+    {
+      "@id": "dpia:element3_16",
+      "@type": "DPIAElement",
+      "name": "dataController",
+      "description": "Who is the data controller?"
+    },
+    {
+      "@id": "dpia:element3_17",
+      "@type": "DPIAElement",
+      "name": "informationSharingAgreement",
+      "description": "Is an information sharing agreement in place?"
+    },
+    {
+      "@id": "dpia:element3_18",
+      "@type": "DPIAElement",
+      "name": "dataProcessorIdentified",
+      "description": "Has the data processor been identified?"
+    },
+    {
+      "@id": "dpia:element4_1",
+      "@type": "DPIAElement",
+      "name": "dataSharingWithinOrganization",
+      "description": "Will you be sharing data within your organization or an external service provider or third party?"
+    },
+    {
+      "@id": "dpia:element4_2",
+      "@type": "DPIAElement",
+      "name": "dataSharingParties",
+      "description": "Who will you share the data with?"
+    },
+    {
+      "@id": "dpia:element4_3",
+      "@type": "DPIAElement",
+      "name": "dataSharingMethod",
+      "description": "How will the data be shared?"
+    },
+    {
+      "@id": "dpia:element4_4",
+      "@type": "DPIAElement",
+      "name": "dataSharingPurpose",
+      "description": "For what purpose are you sharing the data?"
+    },
+    {
+      "@id": "dpia:element4_5",
+      "@type": "DPIAElement",
+      "name": "dataSharingSecurityMeasures",
+      "description": "What security measures have been put in place to ensure the data can be shared securely?"
+    },
+    {
+      "@id": "dpia:element4_6",
+      "@type": "DPIAElement",
+      "name": "projectDataFlowsCompleted",
+      "description": "Have the project data flows been completed?"
+    },
+    {
+      "@id": "dpia:element5_1",
+      "@type": "DPIAElement",
+      "name": "hasConsent",
+      "description": "Do you have consent to use the data in the way you're intending to?"
+    },
+    {
+      "@id": "dpia:element5_2",
+      "@type": "DPIAElement",
+      "name": "dataUseCommunication",
+      "description": "How do you intend to tell individuals about the use of their data?"
+    },
+    {
+      "@id": "dpia:element5_3",
+      "@type": "DPIAElement",
+      "name": "privacyNoticeAvailability",
+      "description": "Do you have a privacy notice?"
+    },
+    {
+      "@id": "dpia:element5_4",
+      "@type": "DPIAElement",
+      "name": "privacyNoticeAmendment",
+      "description": "Do you need to amend your privacy notices?"
+    },
+    {
+      "@id": "dpia:element5_5",
+      "@type": "DPIAElement",
+      "name": "privacyPolicyLink",
+      "description": "Provide a link to your privacy policy"
+    },
+    {
+      "@id": "dpia:element5_6",
+      "@type": "DPIAElement",
+      "name": "privacyPolicyUpload",
+      "description": "Upload the Privacy Policy to this DPIA"
+    },
+    {
+      "@id": "dpia:element5_7",
+      "@type": "DPIAElement",
+      "name": "marketingOptOut",
+      "description": "If the project involves marketing, is there a process in place for data subjects to opt out?"
+    },
+    {
+      "@id": "dpia:element5_8",
+      "@type": "DPIAElement",
+      "name": "optOutProcess",
+      "description": "What process will be put in place?"
+    },
+    {
+      "@id": "dpia:element6_1",
+      "@type": "DPIAElement",
+      "name": "dataNecessity",
+      "description": "What is the necessity of using the data?"
+    },
+    {
+      "@id": "dpia:element6_2",
+      "@type": "DPIAElement",
+      "name": "purposeAchievement",
+      "description": "Does the processing achieve your purpose?"
+    },
+    {
+      "@id": "dpia:element6_3",
+      "@type": "DPIAElement",
+      "name": "processingMethod",
+      "description": "How does the processing achieve your purpose?"
+    },
+    {
+      "@id": "dpia:element6_4",
+      "@type": "DPIAElement",
+      "name": "dataQuality",
+      "description": "Is the information you are using of good enough quality for the purposes it is used?"
+    },
+    {
+      "@id": "dpia:element6_5",
+      "@type": "DPIAElement",
+      "name": "alternativeDataUsage",
+      "description": "Is there another way to achieve the same outcome using less personal data?"
+    },
+    {
+      "@id": "dpia:element6_6",
+      "@type": "DPIAElement",
+      "name": "alternativeOptions",
+      "description": "What other options are available?"
+    },
+    {
+      "@id": "dpia:element6_7",
+      "@type": "DPIAElement",
+      "name": "dataAccuracyMaintenance",
+      "description": "How are you ensuring data is kept up to date and checked for accuracy and completeness?"
+    },
+    {
+      "@id": "dpia:element6_8",
+      "@type": "DPIAElement",
+      "name": "dataCorrectionProcess",
+      "description": "What is the process (administrative & technical) that enables necessary data corrections to be made?"
+    },
+    {
+      "@id": "dpia:element6_9",
+      "@type": "DPIAElement",
+      "name": "thirdPartyNotification",
+      "description": "What is the process (where relevant) for informing the third-party recipients of the data if data is corrected or erased?"
+    },
+    {
+      "@id": "dpia:element7_1",
+      "@type": "DPIAElement",
+      "name": "internalStakeholderConsultation",
+      "description": "Have you consulted with internal stakeholders?"
+    },
+    {
+      "@id": "dpia:element7_2",
+      "@type": "DPIAElement",
+      "name": "consultedStakeholders",
+      "description": "Which stakeholder(s) have you consulted?"
+    },
+    {
+      "@id": "dpia:element7_3",
+      "@type": "DPIAElement",
+      "name": "consultationProcess",
+      "description": "What was the consultation process?"
+    },
+    {
+      "@id": "dpia:element7_4",
+      "@type": "DPIAElement",
+      "name": "dataSubjectConsultation",
+      "description": "Have you consulted with data subjects (or their representatives if Children’s data is involved)?"
+    },
+    {
+      "@id": "dpia:element7_5",
+      "@type": "DPIAElement",
+      "name": "dataSubjectConsultationDetails",
+      "description": "Describe how you consulted with your data subjects – or justify why it was not appropriate to do so"
+    },
+    {
+      "@id": "dpia:element8_1",
+      "@type": "DPIAElement",
+      "name": "newITSolution",
+      "description": "Is this introducing a new IT solution, or a change to an existing IT process?"
+    },
+    {
+      "@id": "dpia:element8_2",
+      "@type": "DPIAElement",
+      "name": "newTechnologyIntroduced",
+      "description": "What new technology is being introduced?"
+    },
+    {
+      "@id": "dpia:element8_3",
+      "@type": "DPIAElement",
+      "name": "technologySupplier",
+      "description": "Who is the supplier of the technology?"
+    },
+    {
+      "@id": "dpia:element8_4",
+      "@type": "DPIAElement",
+      "name": "largeScaleMonitoring",
+      "description": "Will you be monitoring a publicly accessible place on a large scale?"
+    },
+    {
+      "@id": "dpia:element9_1",
+      "@type": "DPIAElement",
+      "name": "dataStorageLocation",
+      "description": "Where will the collected data be stored?"
+    },
+    {
+      "@id": "dpia:element9_2",
+      "@type": "DPIAElement",
+      "name": "physicalDataSecurity",
+      "description": "What physical security is in place to prevent access to the data?"
+    },
+    {
+      "@id": "dpia:element9_3",
+      "@type": "DPIAElement",
+      "name": "accessControls",
+      "description": "What are the access controls for staff, third parties, and data processors?"
+    },
+    {
+      "@id": "dpia:element9_4",
+      "@type": "DPIAElement",
+      "name": "dataRetentionDuration",
+      "description": "How long will the data be retained for?"
+    },
+    {
+      "@id": "dpia:element9_5",
+      "@type": "DPIAElement",
+      "name": "dataDeletionProcess",
+      "description": "What processes are in place to ensure information can be securely deleted/destroyed in relation to both paper and electronic files?"
+    },
+    {
+      "@id": "dpia:element9_6",
+      "@type": "DPIAElement",
+      "name": "processingConcerns",
+      "description": "Do you have any prior concerns over this type of processing or security flaws?"
+    },
+    {
+      "@id": "dpia:element9_7",
+      "@type": "DPIAElement",
+      "name": "concernDetails",
+      "description": "What are your concerns, and how will it affect the project?"
+    },
+    {
+      "@id": "dpia:element9_8",
+      "@type": "DPIAElement",
+      "name": "cloudServiceProvider",
+      "description": "Are you using a third-party Cloud Service Provider?"
+    },
+    {
+      "@id": "dpia:element10_1",
+      "@type": "DPIAElement",
+      "name": "dataProtectionRisksIdentification",
+      "description": "Identifying Data Protection Risks"
+    },
+    {
+      "@id": "dpia:element10_2",
+      "@type": "DPIAElement",
+      "name": "potentialImpact",
+      "description": "What is the potential impact? (from 10.1 Identifying Data Protection Risks)"
+    },
+    {
+      "@id": "dpia:element10_3",
+      "@type": "DPIAElement",
+      "name": "likelihoodOfHarmBeforeReduction",
+      "description": "What is the likelihood of harm before identifying ways to reduce the risk? (from 10.1 Identifying Data Protection Risks)"
+    },
+    {
+      "@id": "dpia:element10_4",
+      "@type": "DPIAElement",
+      "name": "severityOfHarmBeforeReduction",
+      "description": "What is the severity of harm likely to be before identifying ways to reduce the risk? (from 10.1 Identifying Data Protection Risks)"
+    },
+    {
+      "@id": "dpia:element10_5",
+      "@type": "DPIAElement",
+      "name": "riskReductionAction",
+      "description": "What action/existing risk reduction needs to be taken to reduce or eliminate the risk? (from 10.1 Identifying Data Protection Risks)"
+    },
+    {
+      "@id": "dpia:element10_6",
+      "@type": "DPIAElement",
+      "name": "actionOwner",
+      "description": "Who owns the action? (from 10.1 Identifying Data Protection Risks)"
+    },
+    {
+      "@id": "dpia:element10_7",
+      "@type": "DPIAElement",
+      "name": "actionCompletionDate",
+      "description": "What date will this be done (from 10.1 Identifying Data Protection Risks)"
+    },
+    {
+      "@id": "dpia:element10_8",
+      "@type": "DPIAElement",
+      "name": "likelihoodOfHarmAfterReduction",
+      "description": "What is the likelihood of harm after reducing the risk? (from 10.1 Identifying Data Protection Risks)"
+    }
+  ]
+}
