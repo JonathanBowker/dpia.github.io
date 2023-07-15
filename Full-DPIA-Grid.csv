@@ -1,0 +1,85 @@
+Group ID,Group Name,Element ID,Element Name,Element Description
+dpia:group1,Project Scope,dpia:element1_1,projectAim,What is the aim of the project?
+dpia:group1,Project Scope,dpia:element1_2,linkedToAnotherProject,Does this project link to another project?
+dpia:group1,Project Scope,dpia:element1_3,linkedProjectDPIACompleted,Has a DPIA been completed on the linked project?
+dpia:group1,Project Scope,dpia:element1_4,linkedProjectName,What is the name of the project this links to?
+dpia:group2,Personal Data,dpia:element2_1,usingPersonalData,Will you be using any personal data?
+dpia:group2,Personal Data,dpia:element2_2,processedPersonalData,What personal data will be processed?
+dpia:group2,Personal Data,dpia:element2_3,otherPersonalData,Other (please specify)
+dpia:group2,Personal Data,dpia:element2_4,relyingConditions,Which of the following condition(s) are you relying upon?
+dpia:group2,Personal Data,dpia:element2_5,consentCollectionWithdrawal,"If you are relying on consent to process personal data, how will this be collected and what will you do if it is withheld or withdrawn?"
+dpia:group2,Personal Data,dpia:element2_6,multipleLawfulBasis,"If you have selected more than one lawful basis for processing personal data because there is more than one processing activity, please give further detail about each activity and why you consider more than one lawful basis applicable"
+dpia:group2,Personal Data,dpia:element2_7,legalObligationJustification,"If you are using legal obligation or public task as your lawful basis, please specify what legislation is being used to justify this."
+dpia:group2,Personal Data,dpia:element2_8,specialCategoryDataIncluded,Does the data include special category data?
+dpia:group2,Personal Data,dpia:element2_9,includedSpecialCategoryData,Which special category data is included?
+dpia:group2,Personal Data,dpia:element2_10,relyingConditionsSpecialCategory,Which of the following conditions are you relying upon to process the special category data?
+dpia:group2,Personal Data,dpia:element2_11,multipleLawfulBasisSpecialCategory,"If you have selected more than one lawful basis for processing Special Category Data because there is more than one processing activity, please give further detail about each activity and why you consider more than one lawful basis applicable"
+dpia:group2,Personal Data,dpia:element2_12,substantialPublicInterestConditions,What are the substantial public interest conditions?
+dpia:group2,Personal Data,dpia:element2_13,dataIncludesChildrenOrVulnerableGroups,Does the data include children or other vulnerable groups? Select multiple options if applicable
+dpia:group3,Processing Data,dpia:element3_1,dataCollectionMethod,How will you collect the data?
+dpia:group3,Processing Data,dpia:element3_2,dataUsage,How will you use the data?
+dpia:group3,Processing Data,dpia:element3_3,dataSubjectExpectation,Would data subjects expect you to use their data in this way?
+dpia:group3,Processing Data,dpia:element3_4,dataUsageFrequency,How often will you use the data?
+dpia:group3,Processing Data,dpia:element3_5,otherDataUsage,Other (Please specify)
+dpia:group3,Processing Data,dpia:element3_6,dataUsageExplanation,Please explain how and why the data will be used this frequently. Please go into as much detail as possible
+dpia:group3,Processing Data,dpia:element3_7,dataUsageBenefits,What are the benefits of using the data?
+dpia:group3,Processing Data,dpia:element3_8,affectedIndividualsCount,How many individuals are affected?
+dpia:group3,Processing Data,dpia:element3_9,coversAllProcessingPurposes,Does this DPIA cover all of the purposes for processing the data or is it likely to expand as the project develops?
+dpia:group3,Processing Data,dpia:element3_10,dataAlreadyHeld,Is any of this data already held by your organization?
+dpia:group3,Processing Data,dpia:element3_11,currentDataUsagePurpose,For what purpose is this data used for currently?
+dpia:group3,Processing Data,dpia:element3_12,newDataUsageCompatibility,Is the new use of the data compatible with the original purpose?
+dpia:group3,Processing Data,dpia:element3_13,criminalOffencesProcessing,"Will you be processing data for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against & the prevention of threats to public security?"
+dpia:group3,Processing Data,dpia:element3_14,criminalOffencesDetails,Please provide further details
+dpia:group3,Processing Data,dpia:element3_15,dataControllerIdentified,Has the data controller been identified?
+dpia:group3,Processing Data,dpia:element3_16,dataController,Who is the data controller?
+dpia:group3,Processing Data,dpia:element3_17,informationSharingAgreement,Is an information sharing agreement in place?
+dpia:group3,Processing Data,dpia:element3_18,dataProcessorIdentified,Has the data processor been identified?
+dpia:group4,Data Sharing,dpia:element4_1,dataSharingWithinOrganization,Will you be sharing data within your organization or an external service provider or third party?
+dpia:group4,Data Sharing,dpia:element4_2,dataSharingParties,Who will you share the data with?
+dpia:group4,Data Sharing,dpia:element4_3,dataSharingMethod,How will the data be shared?
+dpia:group4,Data Sharing,dpia:element4_4,dataSharingPurpose,For what purpose are you sharing the data?
+dpia:group4,Data Sharing,dpia:element4_5,dataSharingSecurityMeasures,What security measures have been put in place to ensure the data can be shared securely?
+dpia:group4,Data Sharing,dpia:element4_6,projectDataFlowsCompleted,Have the project data flows been completed?
+dpia:group5,Data Permissions,dpia:element5_1,hasConsent,Do you have consent to use the data in the way you're intending to?
+dpia:group5,Data Permissions,dpia:element5_2,dataUseCommunication,How do you intend to tell individuals about the use of their data?
+dpia:group5,Data Permissions,dpia:element5_3,privacyNoticeAvailability,Do you have a privacy notice?
+dpia:group5,Data Permissions,dpia:element5_4,privacyNoticeAmendment,Do you need to amend your privacy notices?
+dpia:group5,Data Permissions,dpia:element5_5,privacyPolicyLink,Provide a link to your privacy policy
+dpia:group5,Data Permissions,dpia:element5_6,privacyPolicyUpload,Upload the Privacy Policy to this DPIA
+dpia:group5,Data Permissions,dpia:element5_7,marketingOptOut,"If the project involves marketing, is there a process in place for data subjects to opt out?"
+dpia:group5,Data Permissions,dpia:element5_8,optOutProcess,What process will be put in place?
+dpia:group6,Assess Necessity,dpia:element6_1,dataNecessity,What is the necessity of using the data?
+dpia:group6,Assess Necessity,dpia:element6_2,purposeAchievement,Does the processing achieve your purpose?
+dpia:group6,Assess Necessity,dpia:element6_3,processingMethod,How does the processing achieve your purpose?
+dpia:group6,Assess Necessity,dpia:element6_4,dataQuality,Is the information you are using of good enough quality for the purposes it is used?
+dpia:group6,Assess Necessity,dpia:element6_5,alternativeDataUsage,Is there another way to achieve the same outcome using less personal data?
+dpia:group6,Assess Necessity,dpia:element6_6,alternativeOptions,What other options are available?
+dpia:group6,Assess Necessity,dpia:element6_7,dataAccuracyMaintenance,How are you ensuring data is kept up to date and checked for accuracy and completeness?
+dpia:group6,Assess Necessity,dpia:element6_8,dataCorrectionProcess,What is the process (administrative & technical) that enables necessary data corrections to be made?
+dpia:group6,Assess Necessity,dpia:element6_9,thirdPartyNotification,What is the process (where relevant) for informing the third-party recipients of the data if data is corrected or erased?
+dpia:group7,Consultation,dpia:element7_1,internalStakeholderConsultation,Have you consulted with internal stakeholders?
+dpia:group7,Consultation,dpia:element7_2,consultedStakeholders,Which stakeholder(s) have you consulted?
+dpia:group7,Consultation,dpia:element7_3,consultationProcess,What was the consultation process?
+dpia:group7,Consultation,dpia:element7_4,dataSubjectConsultation,Have you consulted with data subjects (or their representatives if Children’s data is involved)?
+dpia:group7,Consultation,dpia:element7_5,dataSubjectConsultationDetails,Describe how you consulted with your data subjects – or justify why it was not appropriate to do so
+dpia:group8,Consultation,dpia:element8_1,newITSolution,"Is this introducing a new IT solution, or a change to an existing IT process?"
+dpia:group8,Consultation,dpia:element8_2,newTechnologyIntroduced,What new technology is being introduced?
+dpia:group8,Consultation,dpia:element8_3,technologySupplier,Who is the supplier of the technology?
+dpia:group8,Consultation,dpia:element8_4,largeScaleMonitoring,Will you be monitoring a publicly accessible place on a large scale?
+dpia:group9,Technologies and Systems,dpia:element9_1,dataStorageLocation,Where will the collected data be stored?
+dpia:group9,Technologies and Systems,dpia:element9_2,physicalDataSecurity,What physical security is in place to prevent access to the data?
+dpia:group9,Technologies and Systems,dpia:element9_3,accessControls,"What are the access controls for staff, third parties, and data processors?"
+dpia:group9,Technologies and Systems,dpia:element9_4,dataRetentionDuration,How long will the data be retained for?
+dpia:group9,Technologies and Systems,dpia:element9_5,dataDeletionProcess,What processes are in place to ensure information can be securely deleted/destroyed in relation to both paper and electronic files?
+dpia:group9,Technologies and Systems,dpia:element9_6,processingConcerns,Do you have any prior concerns over this type of processing or security flaws?
+dpia:group9,Technologies and Systems,dpia:element9_7,concernDetails,"What are your concerns, and how will it affect the project?"
+dpia:group9,Technologies and Systems,dpia:element9_8,cloudServiceProvider,Are you using a third-party Cloud Service Provider?
+dpia:group9,Technologies and Systems,dpia:element9_9,dataProtectionRisksIdentification,Identifying Data Protection Risks
+dpia:group10,Data Security and Retention,dpia:element10_1,potentialImpact,What is the potential impact? (from 10.1 Identifying Data Protection Risks)
+dpia:group10,Data Security and Retention,dpia:element10_2,likelihoodOfHarmBeforeReduction,What is the likelihood of harm before identifying ways to reduce the risk? (from 10.1 Identifying Data Protection Risks)
+dpia:group10,Data Security and Retention,dpia:element10_3,severityOfHarmBeforeReduction,What is the severity of harm likely to be before identifying ways to reduce the risk? (from 10.1 Identifying Data Protection Risks)
+dpia:group10,Data Security and Retention,dpia:element10_4,riskReductionAction,What action/existing risk reduction needs to be taken to reduce or eliminate the risk? (from 10.1 Identifying Data Protection Risks)
+dpia:group10,Data Security and Retention,dpia:element10_5,actionOwner,Who owns the action? (from 10.1 Identifying Data Protection Risks)
+dpia:group10,Data Security and Retention,dpia:element10_6,actionCompletionDate,What date will this be done (from 10.1 Identifying Data Protection Risks)
+dpia:group10,Data Security and Retention,dpia:element10_7,likelihoodOfHarmAfterReduction,What is the likelihood of harm after reducing the risk? (from 10.1 Identifying Data Protection Risks)
+dpia:group10,Data Security and Retention,dpia:element10_8,,
