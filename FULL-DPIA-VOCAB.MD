@@ -1,8 +1,8 @@
 ### projectAim
 | Item | Details |
 | --- | --- |
-| @URI | https://github.com/JonathanBowker/dpia.github.io/blob/main/FULL-DPIA-VOCAB.MD#projectaim |
-| @type | List all *new or modified* files |
+| URI | https://github.com/JonathanBowker/dpia.github.io/blob/main/FULL-DPIA-VOCAB.MD#projectaim |
+| Type | DPIAElement |
 | Term | projectAim |
 | Label | Project Aim |
 | description | Show file differences that **haven't been** staged |
