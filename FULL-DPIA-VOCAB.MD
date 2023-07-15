@@ -1,4 +1,13 @@
-### dpia:element1_1
+### dpia:element1_1: projectAim
+
+| --- | --- |
+| @URI | https://github.com/JonathanBowker/dpia.github.io/edit/main/FULL-DPIA-VOCAB.MD#projectAim |
+| @type | List all *new or modified* files |
+| Term | projectAim |
+| Label | Project Aim |
+| description | Show file differences that **haven't been** staged |
+| SubType of |  dpia:group1      | 
+
 ### dpia:element1_2
 ### dpia:element1_3
 ### dpia:element1_4
