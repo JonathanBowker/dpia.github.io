@@ -2,6 +2,7 @@
 | Item | Details |
 | --- | --- |
 | URI | https://github.com/JonathanBowker/dpia.github.io/blob/main/FULL-DPIA-VOCAB.MD#projectaim |
+| ID | dpia:element1_1 |
 | Type | DPIAElement |
 | Term | projectAim |
 | Label | Project Aim |
