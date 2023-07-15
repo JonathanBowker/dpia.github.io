@@ -1,7 +1,7 @@
-### dpia:element1_1: projectAim
+### projectAim
 | Item | Details |
 | --- | --- |
-| @URI | https://github.com/JonathanBowker/dpia.github.io/edit/main/FULL-DPIA-VOCAB.MD#projectAim |
+| @URI | https://github.com/JonathanBowker/dpia.github.io/blob/main/FULL-DPIA-VOCAB.MD#projectaim |
 | @type | List all *new or modified* files |
 | Term | projectAim |
 | Label | Project Aim |
